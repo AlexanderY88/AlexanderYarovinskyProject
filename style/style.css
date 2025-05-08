@@ -1,0 +1,522 @@
+@media screen and (min-width: 800px) {
+		/* Desktop-specific styles */
+
+		/* global css */
+	* {
+		margin: 0px;
+		padding: 0px;
+		direction: rtl;
+	}
+
+	h2 {
+		font: normal normal 700 30px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+		margin: 5% 0%;
+	}
+
+	/* header section */
+	h3 {
+		font: normal normal 700 40px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+		margin: 5% 0%;
+	}
+	/* header section */
+	.top_bar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-top: #1AE0EC 2px solid;
+		direction: ltr;
+	}
+
+	.photo_and_name {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		direction: ltr;
+		margin: 10px 5%;
+	}
+
+	.photo_and_name img {
+		height: 62px;
+		width: 62px;
+		border-radius: 50%;
+		background-color: gray;
+	}
+
+	.name {
+		font-family: "Gwendolyn", cursive;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 30px;
+		margin-left: 25px;
+	}
+
+	.header_links {
+		display: flex;
+		justify-items: center;
+		margin: 10px 5%;
+		list-style: none;
+	}
+
+	.menu-toggle {
+		display: none;
+			flex-direction: column;
+			cursor: pointer;
+	}
+
+	.header_links a{
+		text-decoration: none;
+		color: black;
+		font-size: 25px;
+		font-family: "Heebo", cursive;
+		font-weight: 500;
+		font-style: normal;
+		padding: 0px 20px;
+	}
+
+	.links:hover{
+		color: #1AE0EC;
+	}
+
+	.header {
+		position:relative;
+	}
+
+	.header_information {
+		height: 460px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center; 
+		text-align: center;
+		gap: 20px;
+			/*
+			I understand that it's much easier to put img file here on background or other gradient, more simple, but it was impotent for me to create the gradient with css like appearing at XD file.
+		*/
+		background-image: repeating-radial-gradient(
+			circle at right,
+			rgba(19, 232, 241, 0.39) 0%,
+			rgba(19, 232, 241, 0.39) 30%,
+			#90e0e6 30%,
+			#90e0e6 30.05%,
+			rgba(19, 232, 241, 0.39) 30.06%,
+			rgba(19, 232, 241, 0.39) 35%,
+			#90e0e6 35.1%,
+			#90e0e6 35.17%,
+			rgba(19, 232, 241, 0.39) 35.15%,
+			rgba(19, 232, 241, 0.39) 40%,
+			#90e0e6 40.15%,
+			#90e0e6 40.3%,
+			rgba(19, 232, 241, 0.39) 40.3%,
+			rgba(19, 232, 241, 0.39) 45%,
+			#90e0e6 45%,
+			#90e0e6 45.4%,
+			rgba(19, 232, 241, 0.39) 45.4%,
+			rgba(19, 232, 241, 0.39) 50%,
+			#90e0e6 50%,
+			#90e0e6 50.5%,
+			rgba(19, 232, 241, 0.39) 50.5%,
+			rgba(19, 232, 241, 0.39) 56%,
+			#90e0e6 56%,
+			#90e0e6 56.8%,
+			rgba(19, 232, 241, 0.39) 56.8%,
+			rgba(19, 232, 241, 0.39) 61.8%,
+			#90e0e6 61.8%,
+			#90e0e6 62.8%,
+			rgba(19, 232, 241, 0.39) 62.8%,
+			rgba(19, 232, 241, 0.39) 68%,
+			#90e0e6 68%,
+			#90e0e6 69.2%,
+			rgba(19, 232, 241, 0.39) 69.2%,
+			rgba(19, 232, 241, 0.39) 75%,
+			#90e0e6 75%,
+			#90e0e6 76.4%,
+			rgba(19, 232, 241, 0.39) 76.4%,
+			rgba(19, 232, 241, 0.39) 82%,
+			#90e0e6 82%,
+			#90e0e6 83.6%,
+			rgba(19, 232, 241, 0.39) 83.6%,
+			rgba(19, 232, 241, 0.39) 90%,
+			#90e0e6 90%,
+			#90e0e6 91.8%,
+			rgba(19, 232, 241, 0.39) 91.8%,
+			rgba(19, 232, 241, 0.39) 97.5%,
+			#90e0e6 97.5%,
+			#90e0e6 99.5%
+		);
+	}
+
+	.main_header{
+		font: normal normal 900 80px/118px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+		opacity: 1;
+	}
+
+	.main_text {
+		font: normal normal normal 25px/30px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+		opacity: 1;
+	}
+
+	.icons_bar {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.icons_img {
+		height: 100px;
+		width: 100px;
+		margin: 0 22px;
+	}
+
+
+	/* about me section */
+	.about_me {
+		display: flex;
+		border-top: lightgray 3px solid;
+		padding: 100px;
+		flex-direction: row;
+	}
+
+	.img_container {
+		width: 100%;
+		height: auto;
+	}
+
+	.my_photo {
+		height: auto;
+		width: 80%;
+		border-radius: 2%;
+		box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.5);
+		}
+
+	.about_me_container{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		width: 100%;
+		margin-top: -50px;
+	}
+
+	.about_me_header {
+		font: normal normal 700 40px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+	}
+
+	.about_me_text {
+		font: normal normal normal 20px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+		margin: 2% 0%;
+	}
+
+	.download_resume {
+		margin: 5% 25%;
+		width: 250px;
+		height: 50px;
+		border: none;
+		border-radius: 15px;
+		background-color: #1AE0EC;
+		font: normal normal normal 25px/30px Heebo;
+	}
+
+	.download_resume:hover {
+		background-color: black;
+		cursor: pointer;
+		color: white;
+	}
+
+
+
+	/* projects section */
+	.my_projects {
+		background-color: #F6F6F6;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about_projects {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: 50px;
+	}
+
+	.header_projects {
+		font: normal normal 700 40px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+	}
+
+	.text_projects {
+		font: normal normal normal 20px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+		text-align: center;
+	}
+
+	.projects {
+		display: flex;
+		flex-direction: column;
+		margin: 0 5%;
+	}
+
+	.projects_1_3 {
+		display: flex;
+		flex-direction: row;	
+	}
+
+	.projects_4_6 {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.project {
+		display: flex;
+		flex-direction: column;
+		box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.5);
+		background-color: white;
+		border: 1px solid lightgray;
+		height: 100%;
+		width: 50%;
+		border-radius: 10px;
+		text-align: center;
+		margin: 5% 2%;
+	}
+
+	.project_btn {
+		background-color: #1AE0EC;
+		border: none;
+		border-radius: 15px;
+		width: 50%;
+		height: 50%;
+		font: normal normal normal 25px/30px Heebo;
+		margin-bottom: 8%;
+	}
+
+	.project_btn:hover {
+		background-color: black;
+		cursor: pointer;
+		color: white;
+	}
+
+	.project_icons {
+		display: flex;
+		align-self: center;
+		justify-content: center;
+		flex-direction: row;
+		height: 100%;
+		width: auto;
+		align-items: center;
+		margin-bottom: 5%;
+	}
+
+	.project_icons img {
+		height: 50px;
+		width: 50px;
+		margin: 5%;
+	}
+
+	.project_image img {
+		height: 250px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+	}
+
+	.project h2 {
+		font: normal normal 700 30px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+		margin: 5% 0%;
+	}
+
+	.project p {
+		font: normal normal normal 20px Heebo;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+		margin: 5% 0%;
+	}
+
+
+
+	/* contact us  */
+	.contact_us {
+		display: flex;
+		flex-direction: row;
+		background-color: #3A3A3A;
+		height: 100%;
+		width: 100%;
+		align-items: center;
+		justify-content: space-between; /* Changed to space-between */
+	}
+
+	.form_contact_us {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 100%;
+		align-items: stretch; 
+		margin: 2% 5%;
+		justify-content: space-around; 
+	}
+
+	.image_form {
+		order: 2;
+		width: 75%;
+		display: flex;
+		margin-left: 10%;
+		margin-top: -20%;
+	
+	}
+
+	.image_form img {
+		order: 1;
+		height: auto;
+		width: 100%;
+		margin-top: 30%;
+	}
+
+	.form {
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		padding: 5% 3% ;
+		color: white;
+		font-size: 16px;
+	}
+
+	.form h2 {
+		color: white;
+	}
+
+	.form p {
+		font: normal normal normal 20px Heebo;
+		color: white;
+		letter-spacing: 0px;
+		margin-bottom: 5%;
+	}
+
+	.form button {
+		background-color: #1AE0EC;
+		border: none;
+		border-radius: 35px;
+		width: 65%;
+		height: 10%;
+		font: normal normal normal 25px/30px Heebo;
+		margin-top: 5%;
+	}
+
+	.form button:hover {
+		background-color: black;
+		cursor: pointer;
+		color: black;
+		background-color: white;
+	}
+
+	.form input {
+		width: 80%;
+		height: 50px;
+		padding: 0px 15px;
+		border-bottom: #1AE0EC 2px solid;
+	}
+
+	#message {
+		width: 80%;
+		height: 100px;
+		padding: 5px 15px;
+		border-bottom: #1AE0EC 2px solid;
+	}
+
+
+
+	/* social media section */
+	.social {
+		height: 200px;
+		width: 100%;
+		background-color: #1AE0EC;
+	}
+
+	.social-container {
+		display: flex;
+		flex-direction: row-reverse;
+		margin: 0% 5%;
+	}
+
+	.social_media_icon {
+		display: flex;
+		flex-direction: column; 
+		align-items: center; 
+		text-align: center;
+		height: 100%;
+		width: 100%;
+	}
+
+	.social_image {
+		height: 35px;
+		width: 30px;
+		margin-bottom: 5% 5%; 
+	}
+
+	.social_media_icon a {
+		text-decoration: none;
+		font: normal normal normal 20px Heebo;
+		text-align: center;
+		letter-spacing: 0px;
+		color: #3A3A3A;
+		text-align: center;
+		margin-top: 10%;
+		padding: 10% 0%;
+		direction: ltr;
+		transition: background-color 10s;
+	}
+
+	.social_image:active,
+	.social_image:focus {
+		text-decoration: none;
+		color: white;
+		background-color: black;
+		font-size: 20px;
+		box-shadow: 8px 8px 8px rgba(69, 207, 15, 0.5);
+		border: 1px solid #000000;
+	}
+
+	/* Footer section */
+	.footer {
+		display: flex;
+		flex-direction: row-reverse;
+		height: 50px;
+		width: 100%;
+		background-color: #3A3A3A;
+		color: #1AE0EC;
+		border-bottom: #1AE0EC 2px solid;
+		font: normal normal 700 20px Heebo;
+		align-items: center;
+		justify-content: space-between; 
+	}
+
+	.footer_name {
+		letter-spacing: 0px;
+		color: #1AE0EC;
+		margin: 0% 5%;
+	}
+
+	.footer_message {
+		letter-spacing: 0px;
+		color: #1AE0EC;
+		margin: 0% 5%;
+	}
+
+
+}

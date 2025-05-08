@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- css file for desktop view -->
+	<link rel="stylesheet" href="./style/style.css" media="only screen and (min-width: 800px)">
+	<!-- css file for mobile view -->
+	<link rel="stylesheet" href="./style/mobile.css" media="only screen and (max-width: 799px)">
+
+	<!--font: Gwendolyn - name next to photo -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+
+ 	<!--font: Heebo - header links -->
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Heebo:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+	<title>Alexander Yarovinsky</title>
+</head>
+<header>
+		<!-- header section include navigation, main title, icons of html and css, short text about portfolio -->
+		<nav class="top_bar" id="top_bar">
+			<div class="photo_and_name">
+				<img src="./images/alex.png" alt="my photo" class="photo">
+			  <h3 class="name">Alexander Yarovinsky</h3>
+			</div>
+
+			<input type="checkbox" id="menu-toggle" class="menu-toggle">
+				<label for="menu-toggle" class="burger">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+				</label>
+				
+
+			<ul class="header_links">
+        <li><a href="#header" class="links">ראשי</a></li>
+        <li><a href="#projects" class="links">שירותים</a></li>
+        <li><a href="#about_me" class="links">אודות</a></li>
+        <li><a href="#contact_us" class="links">צור קשר</a></li>
+    </ul>
+		</nav>
+</header>
+
+<body>
+		
+
+		<div class="header" id="header">
+			<div class="header_information">
+				<h1 class="main_header">תיק עבודות</h1>
+				<p class="main_text">
+					שמי אלכס יארובינסקי, ואני משלב ניסיון של כ-6 שנים בתחום ה-QA עם תשוקה גוברת לפיתוח תוכנה.<br> כיום, אני סטודנט לפיתוח Full-Stack במכללת הקריו, שם אני מעמיק את הידע שלי בטכנולוגיות כמו HTML ו-CSS, בין היתר.<br> תיק עבודות זה מדגים את הפרויקטים שלי ואת התקדמותי בתחום.
+				</p>
+			</div>
+
+			<div class="icons_bar">
+				<img src="./images/img-HTML.png" alt="html icon" class="icons_img">
+				<img src="./images/img-CSS.png" alt="css icon" class="icons_img">
+			</div>
+
+		</div>
+
+		<!-- sections include about me and resume file to download -->
+		<div class="about_me" id="about_me">
+			<div class="img_container">
+					<img src="./images/ivr_job.jpeg" alt="Me at work" class="my_photo">
+			</div>
+			
+			<div class="about_me_container">
+				<h2 class="about_me_header">קצת עלי</h2>
+				<p class="about_me_text">שמי אלכס (אלכסנדר) יארובינסקי. <br> במהלך 6 השנים האחרונות  צברתי ניסיון רב בתחום ה-QA, הן בצד הלקוח והן בצד השרת. זכיתי פעמיים להוקרה כ"מצטיין" במקום עבודתי, הישג המעיד על מחויבותי למצוינות.
+					<br><br>
+					כיום, אני מרחיב את כישורי ומתמקד בפיתוח Full-Stack במכללת האקריו. אני נרגש ללמוד טכנולוגיות חדשות וליישם את הידע שלי בפרויקטים מאתגרים.</p>
+				<a href="./files/Alexander Yarovinsky .pdf">
+					<button class="download_resume">להורדת קורות חיים</button>
+				</a>
+				
+			</div>
+		</div>
+
+		<!-- portfolio with projects links -->
+		<div class="my_projects" id="projects">
+			<div class="about_projects">
+				<h2 class="header_projects">עבודות נבחרות</h2>
+				<p class="text_projects">להלן מספר עבודות מייצגות מתיק העבודות שלי. <br> מוצגים כאן פרויקטים נבחרים, עם דגש על מגוון הטכנולוגיות והגישות שבהן השתמשתי.</p>
+			</div>
+			<div class="projects">
+				<div class="projects_1_3">
+					<div class="project" id="project_1">
+						<div class="project_image">
+							<img src="./images/ivr_job.jpeg" alt="">
+					  </div>
+						<h2>Project name</h2>
+						<p>project text project text project text project text project text</p>
+						<div class="project_icons">
+							<img src="./images/img-HTML.png" alt=" html icon">
+							<img src="./images/img-CSS.png" alt="css icon">
+						</div>
+						<a href=""><button class="project_btn">לעמוד הפרויקט »</button></a>
+					</div>
+
+					<div class="project" id="project_2">
+						<div class="project_image">
+							<img src="./images/ivr_job.jpeg" alt="">
+					  </div>
+						<h2>Project name</h2>
+						<p>project text project text project text project text project text</p>
+						<div class="project_icons">
+							<img src="./images/img-HTML.png" alt=" html icon">
+							<img src="./images/img-CSS.png" alt="css icon">
+						</div>
+						<a href=""><button class="project_btn">לעמוד הפרויקט »</button></a>
+					</div>
+
+					<div class="project" id="project_3">
+						<div class="project_image">
+							<img src="./images/ivr_job.jpeg" alt="">
+					  </div>
+						<h2>Project name</h2>
+						<p>project text project text project text project text project text</p>
+						<div class="project_icons">
+							<img src="./images/img-HTML.png" alt=" html icon">
+							<img src="./images/img-CSS.png" alt="css icon">
+						</div>
+						<a href=""><button class="project_btn">לעמוד הפרויקט »</button></a>
+					</div>
+				</div>
+				<div class="projects_4_6">
+					<div class="project" id="project_4">
+						<div class="project_image">
+							<img src="./images/ivr_job.jpeg" alt="">
+					  </div>
+						<h2>Project name</h2>
+						<p>project text project text project text project text project text</p>
+						<div class="project_icons">
+							<img src="./images/img-HTML.png" alt=" html icon">
+							<img src="./images/img-CSS.png" alt="css icon">
+						</div>
+						<a href=""><button class="project_btn">לעמוד הפרויקט »</button></a>
+					</div>
+
+					<div class="project" id="project_5">
+						<div class="project_image">
+							<img src="./images/ivr_job.jpeg" alt="">
+					  </div>
+						<h2>Project name</h2>
+						<p>project text project text project text project text project text</p>
+						<div class="project_icons">
+							<img src="./images/img-HTML.png" alt=" html icon">
+							<img src="./images/img-CSS.png" alt="css icon">
+						</div>
+						<a href=""><button class="project_btn">לעמוד הפרויקט »</button></a>
+					</div>
+
+					<div class="project" id="project_6">
+						<div class="project_image">
+							<img src="./images/ivr_job.jpeg" alt="">
+					  </div>
+						<h2>Project name</h2>
+						<p>project text project text project text project text project text</p>
+						<div class="project_icons">
+							<img src="./images/img-HTML.png" alt=" html icon">
+							<img src="./images/img-CSS.png" alt="css icon">
+						</div>
+						<a href=""><button class="project_btn">לעמוד הפרויקט »</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- contact me section -->
+		<div class="contact_us" id="contact_us">
+			<div class="image_form">
+					<img src="./images/Rectangle 41.png" alt="Rectangle image" class="contact_us_img">
+			</div>
+			<div class="form_contact_us">
+					<div class="form">
+							<h2>צור קשר</h2>
+							<p>ליצירת קשר תמלאו את הפרטים הבאים: </p>
+							<form action="" method="post" class="form_contact">
+									<label for="name">שם מלא</label><br>
+									<input type="text" name="name" id="name" placeholder="שם מלא" class="input_contact"><br>
+									<label for="email">דוא''ל</label><br>
+									<input type="email" name="email" id="email" placeholder="אימייל" class="input_contact"><br>
+									<label for="phone">טלפון</label><br>
+									<input type="phone" name="phone" id="phone" placeholder="טלפון כולל קידומת" class="input_contact"><br>
+									<label for="message">תוכן ההודעה</label><br>
+									<textarea name="message" id="message" cols="30" rows="10" placeholder="הודעה" class="input_contact"></textarea><br>
+									<button type="submit" class="send_message">שליחה</button>
+							</form>
+					</div>
+			</div>
+	</div>
+			<!-- social media links  -->
+			<div class="social">
+
+					<div class="social-container">
+
+						<div class="social_media_icon">
+							<a href="https://maps.app.goo.gl/GxarcsoK96tinP1w7" target="_blank"><img src="./images/Icon material-location-on.svg" alt="facebook icon" class="social_image"><br> ראשון לציון</a>
+						</div>
+						<!-- mail link  -->
+						<div class="social_media_icon">
+							<a href="mailto:yarovinsky1988@gmail.com" target="_blank"><img src="./images/Icon simple-email .svg" alt="mail icon"><br>yarovinsky1988<br>@gmail.com</a>
+						</div>
+						<!-- whatsapp -->
+						<div class="social_media_icon">
+							<a href="https://wa.me/972527452202" target="_blank"><img src="./images/Icon simple-whatsapp.svg" alt="whatsapp icon"><br> לשליחת הודעה</a>
+						</div>
+						<!-- phone  -->
+						<div class="social_media_icon">
+							<a href="tel:+972527452202" target="_blank"><img src="./images/icon-phone.svg" alt="phone icon"><br>052-7452202</a>
+						</div>
+						<!-- linkedin link -->
+						<div class="social_media_icon">
+							<a href="https://www.linkedin.com/in/alexander-yarovinsky-0b93ba164/" target="_blank"><img src="./images/Icon awesome-linkedin-in.svg" alt="linkedin icon"><br> Alexander Yarovinsky</a>
+						</div>
+						<!-- facebook link  -->
+						<div class="social_media_icon">
+							<a href="https://www.facebook.com/Yarovinsky88/" target="_blank"><img src="./images/Icon awesome-facebook.svg" alt="facebook icon"><br> Alexander Yarovinsky</a>
+						</div>
+
+					</div>		
+			</div>	
+
+		</div>
+
+	
+
+		<footer class="footer">
+			<h3 class="footer_name">Alexander Yarovinsky</h3>
+			<h3 class="footer_message">כל הזכויות שמורות</h3>
+
+		</footer>
+
+
+</body>
+</html>

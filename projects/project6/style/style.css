@@ -110,14 +110,13 @@
 	}
 
 	.header_information {
-		height: 460px;
+		height: auto;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center; 
 		text-align: center;
-		gap: 20px;
 		background-image: repeating-radial-gradient(
 			circle at right,
 			rgba(19, 232, 241, 0.39) 0%,
@@ -176,6 +175,7 @@
 		letter-spacing: 0px;
 		color: #3A3A3A;
 		opacity: 1;
+		padding-top: 5%;
 	}
 
 	.main_text {
@@ -183,7 +183,7 @@
 		letter-spacing: 0px;
 		color: #3A3A3A;
 		opacity: 1;
-		margin: 5% 10%;
+		padding: 0% 5%;
 	}
 
 	.icons_bar {
@@ -203,7 +203,7 @@
 	.project_screenshot {
 		background-color: #EBFEFF;
 		z-index: 999;
-		height: 100%;
+		height: auto;
 		width: 100%;
 	}
 	
@@ -246,7 +246,6 @@
 		background-color: #3A3A3A;
 		color: #1AE0EC;
 		border-bottom: #1AE0EC 2px solid;
-		font: normal normal 700 20px Heebo;
 		align-items: center;
 		justify-content: space-between; 
 	}
@@ -255,12 +254,14 @@
 		letter-spacing: 0px;
 		color: #1AE0EC;
 		margin: 0% 5%;
+		font: normal normal 700 20px Heebo;
 	}
 
 	.footer_message {
 		letter-spacing: 0px;
 		color: #1AE0EC;
 		margin: 0% 5%;
+		font: normal normal 700 20px Heebo;
 	}
 
 

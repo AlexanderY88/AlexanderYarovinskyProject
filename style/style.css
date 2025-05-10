@@ -181,7 +181,7 @@
 	.about_me {
 		display: flex;
 		border-top: lightgray 3px solid;
-		padding: 100px;
+		padding: 10%;
 		flex-direction: row;
 	}
 
@@ -353,16 +353,17 @@
 
 	/* contact us  */
 	.contact_us {
-		display: flex;
-		flex-direction: row;
-		background-color: #3A3A3A;
-		height: 100%;
-		width: 100%;
-		align-items: center;
-		justify-content: space-between; /* Changed to space-between */
+    display: flex;
+    flex-direction: row; 
+    background-color: #3A3A3A;
+    height: auto; 
+    width: 100%;
+    align-items: flex-start; 
+    justify-content: flex-start; 
 	}
 
 	.form_contact_us {
+		position: relative;
 		display: flex;
 		flex-direction: row;
 		width: 100%;
@@ -373,19 +374,17 @@
 	}
 
 	.image_form {
-		order: 2;
-		width: 75%;
-		display: flex;
-		margin-left: 10%;
-		margin-top: -20%;
-	
+    order: 1; /* Ensure it appears first */
+    width: 75%; /* Adjust width as needed */
+    margin: 0; /* Remove extra margins */
+    text-align: center; /* Center the image horizontally */
 	}
 
 	.image_form img {
-		order: 1;
-		height: auto;
-		width: 100%;
-		margin-top: 30%;
+		width: 100%; /* Make the image responsive */
+		height: auto; /* Maintain aspect ratio */
+		margin: 0 auto; /* Center the image */
+		display: block;
 	}
 
 	.form {

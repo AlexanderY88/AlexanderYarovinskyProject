@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- css file for desktop view -->
+	<link rel="stylesheet" href="../project_page/style/style.css" media="only screen and (min-width: 800px)">
+	<!-- css file for mobile view -->
+	<link rel="stylesheet" href="../project_page/style/mobile.css" media="only screen and (max-width: 799px)">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+	<title>Project 1</title>
+</head>
+<body>
+		<div class="main_container">
+				<div class="top_background"></div>
+				<div class="bottom_background"></div>
+				<div id="circle1"></div>
+				<dov id="circle2"></dov>
+				<div id="circle3"></div>
+				<!-- we didnt learned js yet, so I made the little circles with span and css -->
+				<div class="circles">
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+					<span class="little_circle"></span>
+				</div>
+				<div class="form">
+					<div class="form_settings">
+						<h2>תן לנו להוביל אותך קדימה</h2>
+						<p>
+						במסך זה כל הרקע נעשה על ידי שימוש ב CSS  בלבד. 
+						<br>
+						נעשה ללא שימוש בסיפריות חיצוניות 
+					</p>
+						<form action="/submit" method="post">
+							<label for="name" class="form_element">שם מלא:</label>
+							<input type="text" id="name" name="name" required>
+						
+							<label for="email" class="form_element">דוא"ל:</label>
+							<input type="email" id="email" name="email" required>
+					
+							<button type="submit" class="form_element">שליחה</button>
+    				</form>
+					</div>
+				</div>
+
+		</div>
+</body>
+</html>

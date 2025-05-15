@@ -39,6 +39,8 @@
 	}
 
 	.photo_and_name {
+		width: 40%;
+		height: auto;
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -72,20 +74,22 @@
 	}
 
 	.header_links {
+		width: 60%;
+		height: auto;
 		display: flex;
-		justify-items: center;
+		flex-direction: row;
 		margin: 10px 5%;
 		list-style: none;
+		margin: 0 5%;
 	}
 	.header_links li {
 		margin-left: 50px;
 		display: flex;
 		align-items: center;
+		height: auto;
+		padding: 0 10%;
 	}
 
-	.header_links li:last-child {
-		margin-left: 0;
-	}
 	.links { 
 		text-decoration: none;
 		color: #1AE0EC;
@@ -94,10 +98,8 @@
 		font-weight: 500;
 		font-style: normal;
 		text-align: left; 
-		white-space: nowrap;
 		display: flex;
 		align-items: center;
-		justify-content: flex-end;
 		left: 10px;
 	}
 
@@ -207,8 +209,14 @@
 		width: 100%;
 	}
 	
-	.background_top {
-		padding: 5% 5%;
+
+
+	.background_top img{
+		width: 80%;
+		height: auto;
+		margin: 5% 10%;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
 	}
 
 	.header_buttons {

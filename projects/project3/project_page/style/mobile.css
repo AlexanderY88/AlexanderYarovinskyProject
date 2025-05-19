@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 799px) {
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #020253;
+	letter-spacing: 0px;
+	text-align: center;
+	opacity: 1;
+}
+
+.main_container {
+	height: auto;
+  width: 100vi;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.image_container {
+	height: 100%;
+	width: 100%;
+}
+
+.form_container {
+	width: 100%;
+	padding: 0;
+}
+
+.coffe {
+	display: none;
+}
+
+.coffe_mobile{
+	height: 219px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	border: none;
+	border-bottom: 2px solid #707070;
+}
+
+.header_form {
+	text-align: center;
+	padding: 10% 5% 0% 5%;
+	font: normal normal 900 28px/41px Heebo;
+}
+
+.explain_text {
+	text-align: center;
+	font: normal normal normal 15px/22px Heebo;
+	padding: 5% 10% 5% 10%;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 95%;
+}
+
+.form-group label {
+  font: normal normal bold 12px/16px Heebo;
+	color: #2C2C2C;
+	margin: 0 10%;
+	text-align: right;
+}
+
+.form-group input {
+  width: 80%;
+  height: 40px;
+  margin: 0 10% 5% 10%;
+	border: none;
+  border-bottom: 3px solid #020253;
+  background: #E5EEFF 0% 0% no-repeat padding-box;
+	direction: rtr;
+	text-align: right;
+	margin-bottom: 5%;
+}
+
+.form button { 
+	width: 50%;
+  height: 40px;
+  margin: 5% auto; 
+  background: #020253 0% 0% no-repeat padding-box;
+  font-size: 16px;
+	font: normal normal bold 22px/30px Heebo;
+	transition: all 0.8s ease;
+	color: #FFFFFF;
+}
+
+.form button:active {
+  transform: scale(0.95);
+  background: rgba(12, 16, 247, 0.8);
+}
+
+
+
+
+
+
+
+
+}

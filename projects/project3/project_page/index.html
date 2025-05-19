@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- css file for desktop view -->
+	<link rel="stylesheet" href="./style/style.css" media="only screen and (min-width: 800px)">
+	<!-- css file for mobile view -->
+	<link rel="stylesheet" href="./style/mobile.css" media="only screen and (max-width: 799px)">
+
+	<!--font: Gwendolyn - name next to photo -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+
+ 	<!--font: Heebo - header links -->
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Heebo:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+	<title>קפה טוב לבוקר טוב</title>
+</head>
+
+<body>
+	<div class="main_container">
+		<div class="image_container">
+			<img src="../images/Coffee.png" alt="picture of cup of coffee" class="coffe">
+			<img src="../images/Coffee@2x.png" alt="picture of cup of coffee" class="coffe_mobile">
+		</div>
+		<div class="form_container">
+			<h2 class="header_form">קפה טוב לבוקר טוב</h2>
+			<p class="explain_text">לקבלת קופון לקפה חינם ומפנק שיפתח לכם את היום בחיוך, יש למלא את הפרטים:</p>
+			<div class="form">
+				<div class="form-group">
+						<label for="name">שם מלא</label>
+						<input type="text" id="name" name="name" required>
+				</div>
+				
+				<div class="form-group">
+						<label for="email">דוא''ל</label>
+						<input type="email" id="email" name="email" required>
+				</div>
+			
+				<button type="submit">שליחה</button>
+		</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+@media screen and (min-width: 800px) {
+	/* Desktop-specific styles */
+
+	/* global css */
+* {
+	margin: 0px;
+	padding: 0px;
+	direction: rtl;
+	box-sizing: border-box;
+}
+
+
+.main_container {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+	height: 100vh;
+}
+
+/* settings of left side of a screen - the form side */
+.form_main_container {
+	padding-right: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.whatsapp_img {
+	position: absolute;
+	height: 95px;
+	width: 95px;
+	border-radius: 50%;
+	top: 100px;
+	left: 65px;
+	background-color: #FDBD03;
+	z-index: 5;
+}
+
+.whatsapp_img img {
+	z-index: 10;
+	position: absolute;
+	height: 54px;
+	width: 54px;
+	top: 20px;
+	left: 22px;
+}
+
+.main_text {
+	margin-top: 20%;
+	text-align: right;
+	font: normal normal 900 66px/97px Heebo;
+	letter-spacing: 0px;
+	color: #FDBD03;
+	opacity: 1;
+	margin: 5% 0;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	margin: 5% 0;
+	width: 100%;
+}
+
+.form_container form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+}
+
+.form_row {
+	display: flex;
+	gap: 2%;
+	width: 100%;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	font: normal normal bold 16px/24px Heebo;
+	letter-spacing: 0px;
+	color: #2C2C2C;
+	opacity: 1;
+	width: 40%;
+	font-size: 16px;
+}
+
+.form_row input {
+	background: #E5EEFF 0% 0% no-repeat padding-box;
+	border: none;
+	border-bottom: 4px solid #FDBD03;
+	height: 50px;
+	width: 100%;
+}
+
+#form_text {
+	background: #E5EEFF 0% 0% no-repeat padding-box;
+	border: none;
+	border-bottom: 4px solid #FDBD03;
+	width: 205%;
+	height: 150px;
+}
+
+.before_form_text {
+	text-align: right;
+	font: normal normal normal 20px/29px Heebo;
+	letter-spacing: 0px;
+	color: #020253;
+	opacity: 1;
+}
+
+#submit {
+	width: 150px;
+	height: 50px;
+	background: #FDBD03 0% 0% no-repeat padding-box;
+	font: normal normal bold 22px/30px Heebo;
+	letter-spacing: 0.33px;
+	color: #000000;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background: #000000 0% 0% no-repeat padding-box;
+	color:  #FDBD03;
+}
+
+
+.bottom_orange_line {
+	height: 20px;
+	width: 100%;
+	background-color: #FDBD03;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
+/* social media buttons*/
+/* there is no option to download icons from XD , I tried a lot of time to cut or generate correct icons to the XD but this is the maximum close to design that I succeed to make  with gemini */
+.social_media_container {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	gap: 20px;
+}
+
+.social-button {
+	display: inline-block;
+	width: 95px;  
+	height: 95px;  
+	text-decoration: none;
+}
+
+.social-icon {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	transition: transform 0.3s ease; 
+}
+
+.social-icon:hover {
+	transform: scale(1.1);  
+}
+
+/* settings of the right side of a screen - image*/
+.image_container {
+	height: 100vh;
+	width: 85%;
+	position: relative;
+}
+
+.top_orange_line {
+	height: 20px;
+	width: 50%;
+	background-color: #FDBD03;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.image_container img {
+	margin-top: 20%;
+	padding-right: 25%;
+}
+
+
+
+}
